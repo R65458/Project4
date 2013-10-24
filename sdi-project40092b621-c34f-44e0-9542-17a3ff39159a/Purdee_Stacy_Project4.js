@@ -63,7 +63,7 @@ return true;
 };
 
 
-  //Format a number to use a specific number of places such as with money
+//Format a number to use a specific number of places such as with money
 
 var specDecPlaces = function(number, places){
 var number = number.toFixed(places);
