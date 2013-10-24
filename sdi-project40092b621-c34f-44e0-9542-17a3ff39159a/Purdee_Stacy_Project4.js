@@ -90,7 +90,14 @@ return{
 };
     
     
-    
+  var myLibrary = new MyLibrary();
+var randomArrayItems = ("HTML" 3, 8, "JavaScript" "10");
+console.log(myLibrary.stringURL(http://www.full-sail.edu));
+console.log(myLibrary.stringToInt(42));
+console.log(myLibrary.stringPhone("478-998-0682"));
+console.log(myLibrary.specDec(7,1,1));
+console.log(myLibrary.symbolReplace("A & B & C", "&", ","));
+console.log(myLibrary.addArray(randomArrayItems));  
     
     
 }
