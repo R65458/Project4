@@ -39,7 +39,17 @@ return string
 };   
     
     
-    
+ //Does a string follow a 123-456-7890 pattern like a phone number?
+
+var stringPhone = function(number){
+
+if (number(3) === "-"){
+} if (number(7) === "-") {
+    return true;
+}else{
+     return false;
+     };
+};   
     
     
     
