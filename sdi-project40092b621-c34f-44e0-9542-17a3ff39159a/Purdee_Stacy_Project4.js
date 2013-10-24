@@ -5,7 +5,7 @@
 //October 24th 2013
 //Wk 4 Library
 
-var myLibrary(){
+var myLibrary = function(){
     
 
     
@@ -52,7 +52,7 @@ return string
 var stringPhone = function(number){
 
 if (number(3) === "-"){
-    } if (number(7) === "-") {
+    } if (number(7) === "-"){
     
 return true;
 
@@ -86,16 +86,14 @@ var j = array.length;
 
 for (var i =0; i < j ; i ++){
 
-if (array(i)/1===array(i);
+if (array(i)/1 === array(i));
 
    };
 
 return total;
 
-};
-
 return{
-"stringURL":stringURL'
+"stringURL":stringURL,
 "stringToInt":stringToInt,
 "stringPhone":stringPhone,
 "SpecDec":symbolReplace,
@@ -106,11 +104,13 @@ return{
     
     
 var myLibrary = new MyLibrary();
-var randomArrayItems = ("HTML" 3, 8, "JavaScript" "10");
-console.log(myLibrary.stringURL(http://www.full-sail.edu));
+var randomArrayItems = ("HTML", 3, 8,"JavaScript","10");
+
+console.log(myLibrary.stringURL("http://www.full-sail.edu"));
 console.log(myLibrary.stringToInt(42));
 console.log(myLibrary.stringPhone("478-998-0682"));
 console.log(myLibrary.specDec(7,1,1));
 console.log(myLibrary.symbolReplace("A & B & C", "&", ","));
 console.log(myLibrary.addArray(randomArrayItems));  
-    
+
+}   
