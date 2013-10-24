@@ -49,8 +49,17 @@ if (number(3) === "-"){
 }else{
      return false;
      };
-};   
-    
+};
+
+
+  //Format a number to use a specific number of places such as with money
+
+var specDecPlaces = function(number, places){
+var number = number.toFixed(places);
+return number;
+};
+
+
     
     
     
