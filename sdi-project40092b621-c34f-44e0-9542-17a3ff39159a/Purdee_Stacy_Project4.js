@@ -9,16 +9,22 @@ var myLibrary(){
     
 
     
-//#1
-//Given a string that is a list of things seperated by a given string,
-//as well as another string seperator changed to the second: "a,b,c" + "," + "/" to "a/b/c"
+//Is the string a URL?
 
-var stringSeparator= function(changeString) {
-    if (changeString) {
-        return console.log("a/" + "b/" + "c/");
-    }
-}
-stringSeparator("a,b,c");
+var stringURL = function(website){
+var url1 = "http://";
+var url2 = "https://";
+
+if (website.indexOf(url1)===0){
+    return true;
+}else if (website.indexOf(url2)===0){
+    return true;
+}else{
+    return false;
+   };
+};                
+
+
     
     
     
