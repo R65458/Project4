@@ -25,7 +25,18 @@ if (website.indexOf(url1)===0){
 };                
 
 
-    
+ //Given a string version of a number, return the value as an actual number such as "42"
+
+var stringToInt = function(string){
+
+if(isNaN(string)){
+   console.log("This is not a number");
+} else{
+parseInt(string);
+return string
+
+   };
+};   
     
     
     
