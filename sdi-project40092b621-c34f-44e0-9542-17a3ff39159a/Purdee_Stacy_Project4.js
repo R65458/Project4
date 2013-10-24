@@ -59,6 +59,13 @@ var number = number.toFixed(places);
 return number;
 };
 
+//Return a string with the first separator changed to the second
+
+var symbolreplace = function(string, symbol1, symbol2){
+var string1= string.replace(symbol1, symbol2);
+var string2= string1.replace(symbol1,symbol2);
+return string2;
+};
 
     
     
