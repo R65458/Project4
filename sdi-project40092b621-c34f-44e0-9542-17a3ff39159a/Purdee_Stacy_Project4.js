@@ -67,6 +67,19 @@ var string2= string1.replace(symbol1,symbol2);
 return string2;
 };
 
+//Find the total value of just the numbers in an array
+
+var addArray = function(array){
+var total = 0;
+var j = array.length;
+for (var i =0; i < j ; i ++){
+if (array(i)/1===array(i);
+};
+};
+return total;
+};
+
+
     
     
     
