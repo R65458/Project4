@@ -79,7 +79,15 @@ if (array(i)/1===array(i);
 return total;
 };
 
+return{
+"stringURL":stringURL'
+"stringToInt":stringToInt,
+"stringPhone":stringPhone,
+"SpecDec":symbolReplace,
+"addArray":addArray
+};
 
+};
     
     
     
